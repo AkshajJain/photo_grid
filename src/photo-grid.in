@@ -1,0 +1,10 @@
+#!@PYTHON@
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+import sys
+
+sys.path.insert(1, "@pkgdatadir@")
+
+from photo_grid import main
+
+main()

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<component type="desktop-application">
+  <id>io.github.photogrid</id>
+
+  <name>Photo Grid</name>
+  <summary>Create print-ready photo grid montages</summary>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <description>
+    <p>
+      Photo Grid lets you arrange photos into print-ready grids and contact
+      sheets. Choose from standard paper sizes, grid layouts, and export as
+      JPEG, PNG, or multi-page PDF — all powered by ImageMagick.
+    </p>
+  </description>
+
+  <launchable type="desktop-id">io.github.photogrid.desktop</launchable>
+
+  <url type="homepage">https://github.com/akshaj/photo-grid</url>
+
+  <provides>
+    <binary>photo-grid</binary>
+  </provides>
+
+  <requires>
+    <display_length compare="ge">768</display_length>
+  </requires>
+
+  <content_rating type="oars-1.1" />
+</component>
